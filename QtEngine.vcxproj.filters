@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="style">
+      <UniqueIdentifier>{89a3244f-1026-4c9c-9650-c319c1988824}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="control">
+      <UniqueIdentifier>{e21ac590-ed4b-41bd-b760-cda8624eecd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="opengl">
+      <UniqueIdentifier>{b321184c-94d0-4ed3-b1df-f45bab0fc525}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mvvm">
+      <UniqueIdentifier>{0508e47b-d719-4e30-b488-4bb68d86644a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utility">
+      <UniqueIdentifier>{beae4e0c-7280-4ef0-9f96-fc7d664b2e6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="viewer">
+      <UniqueIdentifier>{d93fb8b0-f22a-43c2-baeb-da89b4de773a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="viewer\content">
+      <UniqueIdentifier>{f32c1ece-efc6-4c07-abaa-8be591265c67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="viewer\sidebase">
+      <UniqueIdentifier>{b67ee41c-aa37-4924-b5f4-1d9351ef08b1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="include\QtEngine\control\Application.cpp">
+      <Filter>control</Filter>
+    </ClCompile>
+    <ClCompile Include="include\QtEngine\control\ComboBox.cpp">
+      <Filter>control</Filter>
+    </ClCompile>
+    <ClCompile Include="include\QtEngine\control\Dialog.cpp">
+      <Filter>control</Filter>
+    </ClCompile>
+    <ClCompile Include="include\QtEngine\control\Label.cpp">
+      <Filter>control</Filter>
+    </ClCompile>
+    <ClCompile Include="include\QtEngine\control\LineEdit.cpp">
+      <Filter>control</Filter>
+    </ClCompile>
+    <ClCompile Include="include\QtEngine\control\ListWidget.cpp">
+      <Filter>control</Filter>
+    </ClCompile>
+    <ClCompile Include="include\QtEngine\control\ScrollArea.cpp">
+      <Filter>control</Filter>
+    </ClCompile>
+    <ClCompile Include="include\QtEngine\control\TreeWidget.cpp">
+      <Filter>control</Filter>
+    </ClCompile>
+    <ClCompile Include="include\QtEngine\control\Widget.cpp">
+      <Filter>control</Filter>
+    </ClCompile>
+    <ClCompile Include="include\QtEngine\style\Alarm.cpp">
+      <Filter>style</Filter>
+    </ClCompile>
+    <ClCompile Include="include\QtEngine\style\Border.cpp">
+      <Filter>style</Filter>
+    </ClCompile>
+    <ClCompile Include="include\QtEngine\style\Font.cpp">
+      <Filter>style</Filter>
+    </ClCompile>
+    <ClCompile Include="include\QtEngine\style\Palette.cpp">
+      <Filter>style</Filter>
+    </ClCompile>
+    <ClCompile Include="include\QtEngine\style\Style.cpp">
+      <Filter>style</Filter>
+    </ClCompile>
+    <ClCompile Include="include\QtEngine\style\ThemeManager.cpp">
+      <Filter>style</Filter>
+    </ClCompile>
+    <ClCompile Include="include\QtEngine\style\Theme.cpp">
+      <Filter>style</Filter>
+    </ClCompile>
+    <ClCompile Include="include\QtEngine\control\HBoxLayout.cpp">
+      <Filter>control</Filter>
+    </ClCompile>
+    <ClCompile Include="include\QtEngine\control\VBoxLayout.cpp">
+      <Filter>control</Filter>
+    </ClCompile>
+    <ClCompile Include="include\QtEngine\control\Base.cpp">
+      <Filter>control</Filter>
+    </ClCompile>
+    <ClCompile Include="include\QtEngine\mvvm\Property.tpp">
+      <Filter>mvvm</Filter>
+    </ClCompile>
+    <ClCompile Include="include\QtEngine\opengl\Gizmo.cpp">
+      <Filter>opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="include\QtEngine\opengl\Mesh.cpp">
+      <Filter>opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="include\QtEngine\opengl\MeshHelper.cpp">
+      <Filter>opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="include\QtEngine\opengl\MeshBuffer.cpp">
+      <Filter>opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="include\QtEngine\opengl\Ray.cpp">
+      <Filter>opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="include\QtEngine\opengl\Vertex.cpp">
+      <Filter>opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="include\QtEngine\opengl\CameraBuffer.cpp">
+      <Filter>opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="include\QtEngine\opengl\ShaderBuffer.cpp">
+      <Filter>opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="include\QtEngine\opengl\GLWidget.cpp">
+      <Filter>opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="include\QtEngine\control\Icon.cpp">
+      <Filter>control</Filter>
+    </ClCompile>
+    <ClCompile Include="include\QtEngine\utility\EigenUtility.cpp">
+      <Filter>utility</Filter>
+    </ClCompile>
+    <ClCompile Include="include\QtEngine\utility\MeshUtility.cpp">
+      <Filter>utility</Filter>
+    </ClCompile>
+    <ClCompile Include="include\QtEngine\control\PushButton.cpp">
+      <Filter>control</Filter>
+    </ClCompile>
+    <ClCompile Include="include\QtEngine\viewer\content\ContentBase.cpp">
+      <Filter>viewer\content</Filter>
+    </ClCompile>
+    <ClCompile Include="include\QtEngine\viewer\content\IconContentWidget.cpp">
+      <Filter>viewer\content</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\QtEngine\control\ComboBox.h">
+      <Filter>control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\QtEngine\style\Alarm.h">
+      <Filter>style</Filter>
+    </ClInclude>
+    <ClInclude Include="include\QtEngine\style\Border.h">
+      <Filter>style</Filter>
+    </ClInclude>
+    <ClInclude Include="include\QtEngine\style\Font.h">
+      <Filter>style</Filter>
+    </ClInclude>
+    <ClInclude Include="include\QtEngine\style\Palette.h">
+      <Filter>style</Filter>
+    </ClInclude>
+    <ClInclude Include="include\QtEngine\style\Style.h">
+      <Filter>style</Filter>
+    </ClInclude>
+    <ClInclude Include="include\QtEngine\style\ThemeManager.h">
+      <Filter>style</Filter>
+    </ClInclude>
+    <ClInclude Include="include\QtEngine\style\Theme.h">
+      <Filter>style</Filter>
+    </ClInclude>
+    <ClInclude Include="include\QtEngine\QtEngine.h" />
+    <ClInclude Include="include\QtEngine\Enums.h" />
+    <ClInclude Include="include\QtEngine\control\Base.h">
+      <Filter>control</Filter>
+    </ClInclude>
+    <ClInclude Include="include\QtEngine\mvvm\Property.h">
+      <Filter>mvvm</Filter>
+    </ClInclude>
+    <ClInclude Include="include\QtEngine\opengl\Gizmo.h">
+      <Filter>opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\QtEngine\opengl\Mesh.h">
+      <Filter>opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\QtEngine\opengl\MeshHelper.h">
+      <Filter>opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\QtEngine\opengl\CameraBuffer.h">
+      <Filter>opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\QtEngine\opengl\QGLHelper.hpp">
+      <Filter>opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\QtEngine\opengl\GLWidget.h">
+      <Filter>opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\QtEngine\opengl\QMathHelper.hpp">
+      <Filter>opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\QtEngine\opengl\MeshBuffer.h">
+      <Filter>opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\QtEngine\opengl\ShaderBuffer.h">
+      <Filter>opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\QtEngine\opengl\Ray.h">
+      <Filter>opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\QtEngine\opengl\Vertex.h">
+      <Filter>opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\QtEngine\Macro.h" />
+    <ClInclude Include="include\QtEngine\utility\EigenUtility.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="include\QtEngine\utility\MeshUtility.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="include\QtEngine\style\ThemeTester.h">
+      <Filter>style</Filter>
+    </ClInclude>
+    <ClInclude Include="include\QtEngine\viewer\content\ContentBase.h">
+      <Filter>viewer\content</Filter>
+    </ClInclude>
+    <ClInclude Include="include\QtEngine\viewer\content\IconContentWidget.h">
+      <Filter>viewer\content</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="include\QtEngine\control\Application.h">
+      <Filter>control</Filter>
+    </QtMoc>
+    <QtMoc Include="include\QtEngine\control\Label.h">
+      <Filter>control</Filter>
+    </QtMoc>
+    <QtMoc Include="include\QtEngine\control\LineEdit.h">
+      <Filter>control</Filter>
+    </QtMoc>
+    <QtMoc Include="include\QtEngine\control\ListWidget.h">
+      <Filter>control</Filter>
+    </QtMoc>
+    <QtMoc Include="include\QtEngine\control\PushButton.h">
+      <Filter>control</Filter>
+    </QtMoc>
+    <QtMoc Include="include\QtEngine\control\ScrollArea.h">
+      <Filter>control</Filter>
+    </QtMoc>
+    <QtMoc Include="include\QtEngine\control\TreeWidget.h">
+      <Filter>control</Filter>
+    </QtMoc>
+    <QtMoc Include="include\QtEngine\control\Widget.h">
+      <Filter>control</Filter>
+    </QtMoc>
+    <QtMoc Include="include\QtEngine\control\HBoxLayout.h">
+      <Filter>control</Filter>
+    </QtMoc>
+    <QtMoc Include="include\QtEngine\control\VBoxLayout.h">
+      <Filter>control</Filter>
+    </QtMoc>
+    <QtMoc Include="include\QtEngine\control\Dialog.h">
+      <Filter>control</Filter>
+    </QtMoc>
+    <QtMoc Include="include\QtEngine\control\Icon.h">
+      <Filter>control</Filter>
+    </QtMoc>
+  </ItemGroup>
+</Project>

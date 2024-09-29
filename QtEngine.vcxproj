@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="include\QtEngine\control\Application.cpp" />
+    <ClCompile Include="include\QtEngine\control\Base.cpp" />
+    <ClCompile Include="include\QtEngine\control\ComboBox.cpp" />
+    <ClCompile Include="include\QtEngine\control\Dialog.cpp" />
+    <ClCompile Include="include\QtEngine\control\HBoxLayout.cpp" />
+    <ClCompile Include="include\QtEngine\control\Icon.cpp" />
+    <ClCompile Include="include\QtEngine\control\Label.cpp" />
+    <ClCompile Include="include\QtEngine\control\LineEdit.cpp" />
+    <ClCompile Include="include\QtEngine\control\ListWidget.cpp" />
+    <ClCompile Include="include\QtEngine\control\PushButton.cpp" />
+    <ClCompile Include="include\QtEngine\control\ScrollArea.cpp" />
+    <ClCompile Include="include\QtEngine\control\TreeWidget.cpp" />
+    <ClCompile Include="include\QtEngine\control\VBoxLayout.cpp" />
+    <ClCompile Include="include\QtEngine\control\Widget.cpp" />
+    <ClCompile Include="include\QtEngine\mvvm\Property.tpp" />
+    <ClCompile Include="include\QtEngine\opengl\CameraBuffer.cpp" />
+    <ClCompile Include="include\QtEngine\opengl\Gizmo.cpp" />
+    <ClCompile Include="include\QtEngine\opengl\GLWidget.cpp" />
+    <ClCompile Include="include\QtEngine\opengl\Mesh.cpp" />
+    <ClCompile Include="include\QtEngine\opengl\MeshHelper.cpp" />
+    <ClCompile Include="include\QtEngine\opengl\MeshBuffer.cpp" />
+    <ClCompile Include="include\QtEngine\opengl\ShaderBuffer.cpp" />
+    <ClCompile Include="include\QtEngine\opengl\Ray.cpp" />
+    <ClCompile Include="include\QtEngine\opengl\Vertex.cpp" />
+    <ClCompile Include="include\QtEngine\style\Alarm.cpp" />
+    <ClCompile Include="include\QtEngine\style\Border.cpp" />
+    <ClCompile Include="include\QtEngine\style\Font.cpp" />
+    <ClCompile Include="include\QtEngine\style\Palette.cpp" />
+    <ClCompile Include="include\QtEngine\style\Style.cpp" />
+    <ClCompile Include="include\QtEngine\style\ThemeManager.cpp" />
+    <ClCompile Include="include\QtEngine\style\Theme.cpp" />
+    <ClCompile Include="include\QtEngine\utility\EigenUtility.cpp" />
+    <ClCompile Include="include\QtEngine\utility\MeshUtility.cpp" />
+    <ClCompile Include="include\QtEngine\viewer\content\ContentBase.cpp" />
+    <ClCompile Include="include\QtEngine\viewer\content\IconContentWidget.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\QtEngine\control\Base.h" />
+    <ClInclude Include="include\QtEngine\control\ComboBox.h" />
+    <ClInclude Include="include\QtEngine\style\ThemeTester.h" />
+    <ClInclude Include="include\QtEngine\utility\EigenUtility.h" />
+    <ClInclude Include="include\QtEngine\utility\MeshUtility.h" />
+    <ClInclude Include="include\QtEngine\viewer\content\ContentBase.h" />
+    <ClInclude Include="include\QtEngine\viewer\content\IconContentWidget.h" />
+    <QtMoc Include="include\QtEngine\control\Dialog.h" />
+    <QtMoc Include="include\QtEngine\control\HBoxLayout.h" />
+    <QtMoc Include="include\QtEngine\control\VBoxLayout.h" />
+    <QtMoc Include="include\QtEngine\control\Icon.h" />
+    <ClInclude Include="include\QtEngine\Enums.h" />
+    <ClInclude Include="include\QtEngine\Macro.h" />
+    <ClInclude Include="include\QtEngine\mvvm\Property.h" />
+    <ClInclude Include="include\QtEngine\opengl\Gizmo.h" />
+    <ClInclude Include="include\QtEngine\opengl\Mesh.h" />
+    <ClInclude Include="include\QtEngine\opengl\MeshHelper.h" />
+    <ClInclude Include="include\QtEngine\opengl\CameraBuffer.h" />
+    <ClInclude Include="include\QtEngine\opengl\QGLHelper.hpp" />
+    <ClInclude Include="include\QtEngine\opengl\GLWidget.h" />
+    <ClInclude Include="include\QtEngine\opengl\QMathHelper.hpp" />
+    <ClInclude Include="include\QtEngine\opengl\MeshBuffer.h" />
+    <ClInclude Include="include\QtEngine\opengl\ShaderBuffer.h" />
+    <ClInclude Include="include\QtEngine\opengl\Ray.h" />
+    <ClInclude Include="include\QtEngine\opengl\Vertex.h" />
+    <ClInclude Include="include\QtEngine\QtEngine.h" />
+    <ClInclude Include="include\QtEngine\style\Alarm.h" />
+    <ClInclude Include="include\QtEngine\style\Border.h" />
+    <ClInclude Include="include\QtEngine\style\Font.h" />
+    <ClInclude Include="include\QtEngine\style\Palette.h" />
+    <ClInclude Include="include\QtEngine\style\Style.h" />
+    <ClInclude Include="include\QtEngine\style\ThemeManager.h" />
+    <ClInclude Include="include\QtEngine\style\Theme.h" />
+    <QtMoc Include="include\QtEngine\control\Widget.h" />
+    <QtMoc Include="include\QtEngine\control\TreeWidget.h" />
+    <QtMoc Include="include\QtEngine\control\ScrollArea.h" />
+    <QtMoc Include="include\QtEngine\control\PushButton.h" />
+    <QtMoc Include="include\QtEngine\control\ListWidget.h" />
+    <QtMoc Include="include\QtEngine\control\LineEdit.h" />
+    <QtMoc Include="include\QtEngine\control\Label.h" />
+    <QtMoc Include="include\QtEngine\control\Application.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{33439014-A908-4AEE-9F6B-1783146CA0DC}</ProjectGuid>
+    <Keyword>QtVS_v304</Keyword>
+    <WindowsTargetPlatformVersion Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">10.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">10.0</WindowsTargetPlatformVersion>
+    <QtMsBuild Condition="'$(QtMsBuild)'=='' OR !Exists('$(QtMsBuild)\qt.targets')">$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt_defaults.props')">
+    <Import Project="$(QtMsBuild)\qt_defaults.props" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="QtSettings">
+    <QtInstall>qt_debug</QtInstall>
+    <QtModules>core</QtModules>
+    <QtBuildConfig>debug</QtBuildConfig>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'" Label="QtSettings">
+    <QtInstall>qt_debug</QtInstall>
+    <QtModules>core</QtModules>
+    <QtBuildConfig>release</QtBuildConfig>
+  </PropertyGroup>
+  <Target Name="QtMsBuildNotFound" BeforeTargets="CustomBuild;ClCompile" Condition="!Exists('$(QtMsBuild)\qt.targets') or !Exists('$(QtMsBuild)\qt.props')">
+    <Message Importance="High" Text="QtMsBuild: could not locate qt.targets, qt.props; project may not build correctly." />
+  </Target>
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(QtMsBuild)\Qt.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(QtMsBuild)\Qt.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <IntDir>$(SolutionDir)$(ProjectName)\$(Platform)\$(Configuration)</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>$(ProjectDir)include;$(VCPKG_DIR)\installed\x64-windows\include\qt5;$(VCPKG_DIR)\installed\x64-windows\include\qt5\QtGui;$(VCPKG_DIR)\installed\x64-windows\include\qt5\QtCore;$(VCPKG_DIR)\installed\x64-windows\include\qt5\QtOpenGL;$(VCPKG_DIR)\installed\x64-windows\include\qt5\QtWidgets;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <QtMoc>
+      <QtMocDir>$(SolutionDir)$(ProjectName)\$(Platform)\$(Configuration)\moc\</QtMocDir>
+    </QtMoc>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>$(ProjectDir)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="Configuration">
+    <ClCompile>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PreprocessorDefinitions>CUTYQT_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'" Label="Configuration">
+    <ClCompile>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PreprocessorDefinitions>CUTYQT_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
+    <Import Project="$(QtMsBuild)\qt.targets" />
+  </ImportGroup>
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
