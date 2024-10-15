@@ -10,6 +10,8 @@
 #include "QtEngine/control/HBoxLayout.h"
 #include "QtEngine/control/Icon.h"
 #include "QtEngine/control/Dialog.h"
+#include "QtEngine/control/StackedWidget.h"
+#include "QtEngine/control/SlideBar.h"
 
 #include "QtEngine/viewer/content/ContentBase.h"
 #include "QtEngine/viewer/content/IconContentWidget.h"
@@ -37,3 +39,5 @@
 
 #include "QtEngine/utility/MeshUtility.h"
 #include "QtEngine/utility/EigenUtility.h"
+
+#include "QtEngine/string/String.h"

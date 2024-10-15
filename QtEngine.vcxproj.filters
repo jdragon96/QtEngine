@@ -25,6 +25,9 @@
     <Filter Include="viewer\sidebase">
       <UniqueIdentifier>{b67ee41c-aa37-4924-b5f4-1d9351ef08b1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="string">
+      <UniqueIdentifier>{f6afd27a-540f-47cd-8785-5f573f67e125}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="include\QtEngine\control\Application.cpp">
@@ -132,6 +135,12 @@
     <ClCompile Include="include\QtEngine\viewer\content\IconContentWidget.cpp">
       <Filter>viewer\content</Filter>
     </ClCompile>
+    <ClCompile Include="include\QtEngine\control\StackedWidget.cpp">
+      <Filter>control</Filter>
+    </ClCompile>
+    <ClCompile Include="include\QtEngine\control\SlideBar.cpp">
+      <Filter>control</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\QtEngine\control\ComboBox.h">
@@ -215,6 +224,9 @@
     <ClInclude Include="include\QtEngine\viewer\content\IconContentWidget.h">
       <Filter>viewer\content</Filter>
     </ClInclude>
+    <ClInclude Include="include\QtEngine\string\String.h">
+      <Filter>string</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="include\QtEngine\control\Application.h">
@@ -251,6 +263,12 @@
       <Filter>control</Filter>
     </QtMoc>
     <QtMoc Include="include\QtEngine\control\Icon.h">
+      <Filter>control</Filter>
+    </QtMoc>
+    <QtMoc Include="include\QtEngine\control\StackedWidget.h">
+      <Filter>control</Filter>
+    </QtMoc>
+    <QtMoc Include="include\QtEngine\control\SlideBar.h">
       <Filter>control</Filter>
     </QtMoc>
   </ItemGroup>

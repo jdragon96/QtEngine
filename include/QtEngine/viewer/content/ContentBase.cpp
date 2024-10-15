@@ -3,7 +3,7 @@
 namespace QtEngine
 {
 ContentBase::ContentBase()
-  : Widget(ThemeType::PRIMARY, ColorType::EMPTY), m_titleHeight(34), m_radius("0px"), m_borderColor("#000000")
+  : Widget(ThemeType::PRIMARY, ColorType::EMPTY), m_titleHeight(30), m_radius("0px"), m_borderColor("#000000")
 {
   m_titleWidget = new Widget(ThemeType::PRIMARY, ColorType::DARKER);
   m_bodyWidget = new Widget(ThemeType::PRIMARY, ColorType::DARK);

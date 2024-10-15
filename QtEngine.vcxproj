@@ -22,6 +22,8 @@
     <ClCompile Include="include\QtEngine\control\ListWidget.cpp" />
     <ClCompile Include="include\QtEngine\control\PushButton.cpp" />
     <ClCompile Include="include\QtEngine\control\ScrollArea.cpp" />
+    <ClCompile Include="include\QtEngine\control\SlideBar.cpp" />
+    <ClCompile Include="include\QtEngine\control\StackedWidget.cpp" />
     <ClCompile Include="include\QtEngine\control\TreeWidget.cpp" />
     <ClCompile Include="include\QtEngine\control\VBoxLayout.cpp" />
     <ClCompile Include="include\QtEngine\control\Widget.cpp" />
@@ -50,6 +52,9 @@
   <ItemGroup>
     <ClInclude Include="include\QtEngine\control\Base.h" />
     <ClInclude Include="include\QtEngine\control\ComboBox.h" />
+    <QtMoc Include="include\QtEngine\control\StackedWidget.h" />
+    <QtMoc Include="include\QtEngine\control\SlideBar.h" />
+    <ClInclude Include="include\QtEngine\string\String.h" />
     <ClInclude Include="include\QtEngine\style\ThemeTester.h" />
     <ClInclude Include="include\QtEngine\utility\EigenUtility.h" />
     <ClInclude Include="include\QtEngine\utility\MeshUtility.h" />
@@ -121,7 +126,7 @@
     <QtBuildConfig>debug</QtBuildConfig>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'" Label="QtSettings">
-    <QtInstall>qt_debug</QtInstall>
+    <QtInstall>qt_release</QtInstall>
     <QtModules>core</QtModules>
     <QtBuildConfig>release</QtBuildConfig>
   </PropertyGroup>
@@ -143,6 +148,8 @@
     <IntDir>$(SolutionDir)$(ProjectName)\$(Platform)\$(Configuration)</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutDir>$(SolutionDir)build\bin</OutDir>
+    <IntDir>$(SolutionDir)build\temp\$(ProjectName)</IntDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -156,7 +163,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>$(ProjectDir)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)\include;GeneratedFiles\$(ConfigurationName);GeneratedFiles;$(VCPKG_DIR)\installed\x64-windows\include\qt5\QtWidgets;$(VCPKG_DIR)\installed\x64-windows\include\qt5\QtOpenGL;$(VCPKG_DIR)\installed\x64-windows\include\qt5\QtCore;$(VCPKG_DIR)\installed\x64-windows\include\qt5\QtGui;$(VCPKG_DIR)\installed\x64-windows\include\qt5;$(VCPKG_DIR)\installed\x64-windows\include\urdfdom_headers;$(VCPKG_DIR)\installed\x64-windows\include\urdfdom;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="Configuration">
